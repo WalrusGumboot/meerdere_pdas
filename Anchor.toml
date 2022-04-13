@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.localnet]
+meerdere_pdas = "EoMAmx5jtLjhPzBfqL65rwx58NQW7Y2wdSkk3LnnwrEE"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/home/simeon/.config/solana/id.json"
+
+[scripts]
+comp = "tsc -p . && node meerdere_pdas.js"
